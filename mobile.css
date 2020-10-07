@@ -1,0 +1,277 @@
+@media (min-width: 401px){
+    main{
+        display: grid;
+        border: 15px blue solid;
+        grid-template-columns: repeat(5,auto);
+        grid-template-rows: auto;
+        justify-items: stretch;
+        align-items: stretch;
+        gap: 5px;
+        width: calc(100% - 20px);
+    }
+    
+
+    
+    li {
+        display: inline-block;
+        list-style: none;
+      }
+    
+      a{
+          color: black;
+      }
+    
+    nav {
+        background-color: rgba(134, 94, 20, 0.733);
+    
+    }
+    
+    body{
+        border: soild 15px grey;
+        max-width: 100%;
+        margin-left:auto;
+        margin-right: auto;
+        margin: 0;
+    }
+    
+    .redmask{
+        grid-column: 1/6;
+        grid-row: 1/2;
+        
+       
+    
+    }
+    
+    .Facebooklogo{
+        grid-column:1/2;
+        grid-row: 2/3;
+      }
+    
+    
+    .Twitterlogo{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+     
+    .Mask{
+        grid-column: 5/6;
+        grid-row: 2/4;
+    }
+    .Party{
+        grid-column: 1/3;
+        grid-row: 4/5;
+    }
+    .Makeup{
+        grid-column: 3/4;
+        grid-row: 4/5;
+    }
+    .Clown{
+        grid-column: 4/5;
+        grid-row: 4/5;
+    }
+    .wiges{
+        grid-column: 5/6;
+        grid-row: 4/5;
+    }
+    .dancer{
+        grid-column: 1/2;
+        grid-row: 5/7;
+    }
+    .sale{
+        grid-column: 2/4;
+        grid-row: 5/6;
+    }
+    .Candy{
+        grid-column: 4/5 ;
+        grid-row: 5/6;
+    }
+    .Pirate{
+        grid-column: 5/6 ;
+        grid-row: 5/6;
+    }
+    .props{
+        grid-column: 1/2;
+        grid-row: 7/8;
+    }
+    .Santa{
+        grid-column:2/3 ;
+        grid-row: 6/8;
+    }
+    .classic{
+        grid-column: 3/5;
+        grid-row: 6/7;
+    }
+    .shipping{
+        grid-column:5/6;
+        grid-row: 6/7;
+    }
+    .hallown{
+        grid-column:3/4 ;
+        grid-row: 7/8 ;
+    }
+    .secound{
+        grid-column:4/5 ;
+        grid-row: 7/8;
+    }
+    .phrase{
+        grid-column:5/6 ;
+        grid-row: 7/8;
+    }
+    .blackmask{
+        grid-column: 2/3;
+        grid-row: 2/4;
+    }
+    .mask2{
+        grid-column:3/5 ;
+        grid-row: 2/4;
+    }
+        .item{
+            width :100%;
+            height: auto;
+            justify-items: end;
+}
+footer{
+    background-color: burlywood;
+}
+
+}
+
+@media (max-width: 400px){
+    main{
+        display: grid;
+        border: 15px blue solid;
+        grid-template-columns: repeat(5,auto);
+        grid-template-rows: auto;
+        justify-items: stretch;
+        align-items: stretch;
+        gap: 5px;
+       width: calc(100% - 20px);
+    }
+    
+
+    
+    li {
+        display: inline-block;
+        list-style: none;
+      }
+    
+      a{
+          color: black;
+      }
+    
+    nav {
+        background-color: rgba(134, 94, 20, 0.733);
+    
+    }
+    
+    body{
+        border: soild 15px grey;
+        max-width: 100%;
+        margin-left:auto;
+        margin-right: auto;
+        margin: 0;
+    }
+    
+    .redmask{
+        grid-column: 1/6;
+        grid-row: 1/2;
+        
+       
+    
+    }
+    
+    .Facebooklogo{
+        grid-column:1/2;
+        grid-row: 2/3;
+      }
+    
+    
+    .Twitterlogo{
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+     
+    .Mask{
+        grid-column: 5/6;
+        grid-row: 2/4;
+    }
+    .Party{
+        grid-column: 1/3;
+        grid-row: 4/5;
+    }
+    .Makeup{
+        grid-column: 3/4;
+        grid-row: 4/5;
+    }
+    .Clown{
+        grid-column: 4/5;
+        grid-row: 4/5;
+    }
+    .wiges{
+        grid-column: 5/6;
+        grid-row: 4/5;
+    }
+    .dancer{
+        grid-column: 1/2;
+        grid-row: 5/7;
+    }
+    .sale{
+        grid-column: 2/4;
+        grid-row: 5/6;
+    }
+    .Candy{
+        grid-column: 4/5 ;
+        grid-row: 5/6;
+    }
+    .Pirate{
+        grid-column: 5/6 ;
+        grid-row: 5/6;
+    }
+    .props{
+        grid-column: 1/2;
+        grid-row: 7/8;
+    }
+    .Santa{
+        grid-column:2/3 ;
+        grid-row: 6/8;
+    }
+    .classic{
+        grid-column: 3/5;
+        grid-row: 6/7;
+    }
+    .shipping{
+        grid-column:5/6;
+        grid-row: 6/7;
+    }
+    .hallown{
+        grid-column:3/4 ;
+        grid-row: 7/8 ;
+    }
+    .secound{
+        grid-column:4/5 ;
+        grid-row: 7/8;
+    }
+    .phrase{
+        grid-column:5/6 ;
+        grid-row: 7/8;
+    }
+    .blackmask{
+        grid-column: 2/3;
+        grid-row: 2/4;
+    }
+    .mask2{
+        grid-column:3/5 ;
+        grid-row: 2/4;
+    }
+    .item{
+        width :100%;
+        height: auto;
+        justify-items: end;
+
+    }
+
+    footer{
+        background-color: burlywood;
+    }
+
+    }
